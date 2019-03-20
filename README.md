@@ -9,34 +9,52 @@
 The goal of this assignment is to have the candidate work with the same tools that are used in every-day Chama web development, so we can learn how one would perform while solving common development tasks that we have.
 
 ### Description
-For this assignment, you are supposed to build a **to-do list** with the ability to add, complete and edit some TO-DO task.
+For this assignment, you are supposed to build a CRUD-complete **to-do list**, persisted on the user's machine.
 
 ### Stack
-At Chama, our frontend stack consists of [React](https://facebook.github.io/react/docs/hello-world.html) + [Redux](http://redux.js.org/) :heart:, therefore it's required that the same stack is used in this assignment. Complementary libraries are free to use (e.g. lodash).
+At Chama, our frontend stack consists of [React](https://facebook.github.io/react/docs/hello-world.html) + [Redux](http://redux.js.org/) :heart:
 
-### Firebase
-Chama relies on [Firebase](https://firebase.google.com/) to give our dealers a real-time experience. Because of this, we require that some features of Firebase are used in this assignment. There is a free-plan (default) that supports the requirements of this assignment (Hosting, Auth and real-time Database) and you should be able to start creating a project with your own Google account.
+You are required to use that same stack in this assignment.
+
+Complementary libraries are permited e.g. lodash, provided that we are able to check how you code using React and Redux.
+
+To speed things up, you can use CRA to bootsrap your app. The architecture CRA generates can be used or discarded, either way you'll have to be able to explain your final solution.
+
+### Firebase (optional)
+Chama also uses [Firebase](https://firebase.google.com/) to give our dealers a real-time experience. You'll get extra points if you are able to proper host, authenticate and/or provide a real-time experience using Firebase.
+
+**This is totally optional**, so we recommend that it is the last things you try to do - preferentially in a separate branch, which will be merged to your master if you manage to make it work.
+
+If you're not experienced with this kind of stuff and want to give it a shot, you can create an account in their free-plan with your own Goolge account.
+
+### Layouting the app
+Don't invest too much on a beautiful visual because in real-life at Chama it would be handed out to you - as a front-ender here you would be able to suggest changes, of course.
+
+But put energy on using good HTML and CSS, it can be vanilla or pre-processed.
 
 ### Must have
-- [ ] Sign-in/Sign-out functionality using [Firebase Auth](https://firebase.google.com/docs/auth/);
-- [ ] Use **[Firebase Realtime Database](https://firebase.google.com/docs/database/)** and **Redux** to keep all the TO-DO's;
-- [ ] Host your working app on the *[Firebase Hosting environment](https://firebase.google.com/docs/hosting/)*;
 - [ ] Assign priority to a TO-DO and sort them by **highest to lowest priority**;
 - [ ] Set a due time. Add real-time visual and auditive hints to the TO-DO item that indicate that the due time is near and has passed;
+- [ ] Nice usability;
+- [ ] Nice stylesheet and a nice layout out of it;
 - [ ] Work on Chrome.
 
 ### Nice to have
-- [ ] Responsive (Mobile and Web);
-- [ ] Cross-browser support;
-- [ ] Tests (Unit and/or Acceptance);
-- [ ] UI following [Material Design concepts](https://material.io/)
+- [ ] Sign-in/Sign-out functionality using [Firebase Auth](https://firebase.google.com/docs/auth/);
+- [ ] Use **[Firebase Realtime Database](https://firebase.google.com/docs/database/)** linked to **Redux** to keep all the TO-DO's;
+- [ ] Optimistic response when dealing with firebase;
+- [ ] Host your working app on the *[Firebase Hosting environment](https://firebase.google.com/docs/hosting/)*;
+- [ ] Unit tests;
+- [ ] Aceptance tests;
 
 ## Instructions
-Create a new repo into your favorite git platform (github, bitbucket, etc), copy this README into it. You're free to edit it, though it should preserve the must-have functionalities and stack.
+Create a new repo into your favorite git platform (github, bitbucket, etc), copy this README into it - as you progress with the assignment, check the boxes above in this README.
 
-**After you finished, you can share the repository URL with us (preference) or just send us a .zip containing the source code.**
+You can also add instructions for us in this [file](./instructions.md) - edit it at will.
 
-When you're done, share your repositoy's and Firebase hosting's URL.
+**After you've finished, you can share the repository URL with us (preferred) or, if you made it on a private repository, just send us a .zip containing the source code.**
+
+If you hosted with firebase, you need to share its URL.
 
 ## Review
 
@@ -59,11 +77,10 @@ If we like what we see, we'll invite you to present your solution! We have a big
 ## Hints
 * You don't need to spend time creating a dev/build environment, using [react-create-app](https://github.com/facebookincubator/create-react-app) (and other alike tools) is totally ok!
 * Never done anything with Firebase? You can follow [this guide](https://firebase.google.com/docs/web/setup) and it should give you a nice starting point.
-* If you wish to spend less time writing boilerplate code, go to http://todomvc.com/, on this website, you will find many sample implementations of the same TO-DO application, every time using a different framework. You can choose the [React](http://todomvc.com/examples/react/#/) implementation as a starting point. It's OK to use the same styling as the original application.
 * Don't need to re-invent the wheel, for components like Datepickers and/or Timepicker you can use [Material-ui](https://github.com/callemall/material-ui) or any other of your choice, it has great integration with React environments.
-* This is a test of your skills (mainly) with React, Redux and Firebase. Though we allow third-person libraries, keep in mind that we need to read some code of yours with those tools, so you should avoid not writing code which touches them.
+* Even though we allow third-party libraries, try to rely as little as possible on tools that write React-, Redux-, CSS- or firebase-related code for you. As our main focus is your own code (and ingenuity) with those tools.
 * As a company, we believe that communication is the key to success. So if something is not clear to you, or if you have doubts on what you can use, reach the devs.
-* Threat this project as if it would continue working on this after your assignment: maintainability, scalability, and readability are super important
+* Threat this project as if you/we would continue working on this after your assignment: maintainability, scalability, and readability are super important.
 
 ## That's it!
 
