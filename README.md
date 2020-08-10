@@ -18,6 +18,8 @@ You are required to use that same stack in this assignment.
 
 Complementary libraries are permited e.g. lodash, provided that we are able to check how you code using React and Redux.
 
+You are very welcome to use [TypeScript](https://www.typescriptlang.org/) in your implementation, as it is now becoming a part of our frontend stack.
+
 To speed things up, you can use CRA to bootstrap your app. The architecture CRA generates can be used or discarded, either way you'll have to be able to explain your final solution.
 
 ### Firebase (optional)
