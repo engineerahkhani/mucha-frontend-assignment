@@ -38,6 +38,7 @@ During the assessment, we will look into the following points:
 * Code organization (modularity, dependencies between modules, naming, etc)
 * SOLID principles
 * Error handling
+* Mobile friendly
 * Assignment completion
 
 ## Hints
