@@ -27,7 +27,7 @@ Share your solution via URL to your git repository or send us a zip file with th
 In your assigment, you are required to use:
 - React
 - Redux
-- Typescript <b>(optional)</b>
+- Typescript <b>(for bonus points)</b>
 
 ## Review
 
