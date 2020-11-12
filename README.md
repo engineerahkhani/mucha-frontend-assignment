@@ -15,7 +15,7 @@ For this assigment, you should consume the public [Github REST API](https://docs
 
 The web app must have two pages:
 
-- <b>Search page</b>: the user types a github username in a form. Once the form is submitted, the data is fetched and presented in the UI. You can come up showing whatever you want, though it is required to show the user profile metadata (example: avatar picture, name, email, bio, etc.) and his repositories metadata info (example: name, description, URL, etc.)
+- <b>Search page</b>: the user types a Github username in a form. Once the form is submitted, the data is fetched and presented in the UI. You can come up showing whatever you want, though it is required to show the user profile metadata (example: avatar picture, name, email, bio, etc.) and his repositories metadata info (example: name, description, URL, etc.)
 
 - <b>History page</b>: the page must show all previous terms searched by the user, sorted by timestamp. The most recent ones must be on the top. The user must be able to click in the history item and search again using the searched term
 
