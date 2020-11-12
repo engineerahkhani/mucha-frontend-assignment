@@ -43,7 +43,7 @@ During the assessment, we will look into the following points:
 ## Hints
 
 * You don't need to spend time creating a dev/build environment. You can use [create-react-app](https://github.com/facebookincubator/create-react-app) (and other alike tools) for that
-* Third-party libraries are allowed, although it is not recommended to use, since our main focus is to assess your skills with HTML, Javascript and CSS
+* Third-party libraries are allowed, although you will have extra points if you provide a vanilla solution since our main focus is to assess your skills with HTML, Javascript and CSS
 * As a company, we believe that communication is the key to success. So if something is not clear to you, or if you have doubts on what you can use, reach the devs
 
 
