@@ -1,91 +1,54 @@
 <p align="center">
-<img src="https://user-images.githubusercontent.com/5693916/30330868-8071b3da-97d6-11e7-8207-99243d19f1fe.png" data-canonical-src="https://user-images.githubusercontent.com/5693916/30330868-8071b3da-97d6-11e7-8207-99243d19f1fe.png" width="100" height="100" />
-<img src="https://user-images.githubusercontent.com/5693916/30366646-10dc3b30-986c-11e7-871a-4f5c237b9a6f.png" data-canonical-src="https://user-images.githubusercontent.com/5693916/30366646-10dc3b30-986c-11e7-871a-4f5c237b9a6f.png" width="100" height="100" />
+<img src="https://avatars0.githubusercontent.com/u/26920098?s=200&v=4" width="100" height="100" />
 </p>
 
-## Assignment
+# Frontend Assigment: Github username searcher
 
-### Goal
-The goal of this assignment is to have the candidate work with the same tools that are used in every-day Chama web development, so we can learn how one would perform while solving common development tasks that we have.
+## Goal
 
-### Description
-For this assignment, you are supposed to build a CRUD-complete **to-do list**, persisted on the user's machine.
+The goal of this assignment is to have the candidate work with the same tools that we use every-day on Chama. It is designed to check your coding and problem-solving skills.
 
-### Stack
-At Chama, our frontend stack consists of [React](https://facebook.github.io/react/docs/hello-world.html) + [Redux](http://redux.js.org/) :heart:
 
-You are required to use that same stack in this assignment.
+## Assigment Description
 
-Complementary libraries are permited e.g. lodash, provided that we are able to check how you code using React and Redux.
+For this assigment, you should consume the public [Github REST API](https://docs.github.com/en/free-pro-team@latest/rest/overview/endpoints-available-for-github-apps#users) in order to present the github data of a given user.
 
-You are very welcome to use [TypeScript](https://www.typescriptlang.org/) in your implementation, as it is now becoming a part of our frontend stack.
+The web app must have two pages:
 
-To speed things up, you can use CRA to bootstrap your app. The architecture CRA generates can be used or discarded, either way you'll have to be able to explain your final solution.
+- <b>Search page</b>: the user types a github username in a form. Once the form is submitted, the data is fetched and presented in the UI. You can come up showing whatever you want, though it is required to show the user profile metadata (example: avatar picture, name, email, bio, etc.) and his repositories metadata info (example: name, description, URL, etc.)
 
-### Firebase (optional)
-Chama also uses [Firebase](https://firebase.google.com/) to give our dealers a real-time experience. You'll get extra points if you are able to properly host, authenticate and/or provide a real-time experience using Firebase.
+- <b>History page</b>: the page must show all previous terms searched by the user, sorted by timestamp. The most recent ones must be on the top. The user must be able to click in the history item and search again using the searched term
 
-**This is totally optional**, so we recommend that it is the last things you try to do - preferentially in a separate branch, which will be merged to your master if you manage to make it work.
+Share your solution via URL to your git repository or send us a zip file with the source.
 
-If you're not experienced with this kind of stuff and want to give it a shot, you can create an account in their free-plan with your own Google account.
 
-### Layouting the app
-Don't invest too much on a beautiful visual because in real-life at Chama it would be handed out to you - as a front-ender here you would be able to suggest changes, of course.
+## Stack
 
-But put energy on using good HTML and CSS, it can be vanilla or pre-processed.
-
-### Must have
-- [ ] Assign priority to a TO-DO and sort them by **highest to lowest priority**;
-- [ ] Set a due time. Add real-time visual and auditive hints to the TO-DO item that indicate that the due time is near and has passed;
-- [ ] Nice usability;
-- [ ] Nice stylesheet and a nice layout out of it;
-- [ ] Work on Chrome.
-
-### Nice to have
-- [ ] Sign-in/Sign-out functionality using [Firebase Auth](https://firebase.google.com/docs/auth/);
-- [ ] Use **[Firebase Realtime Database](https://firebase.google.com/docs/database/)** linked to **Redux** to keep all the TO-DO's;
-- [ ] Optimistic response when dealing with firebase;
-- [ ] Host your working app on the *[Firebase Hosting environment](https://firebase.google.com/docs/hosting/)*;
-- [ ] Unit tests;
-- [ ] Aceptance tests;
-
-## Instructions
-Create a new repo into your favorite git platform (github, bitbucket, etc), copy this README into it - as you progress with the assignment, check the boxes above in this README.
-
-You can also add instructions for us in this [file](./instructions.md) - edit it at will.
-
-**After you've finished, you can share the repository URL with us (preferred) or, if you made it on a private repository, just send us a .zip containing the source code.**
-
-If you hosted with firebase, you need to share its URL.
+In your assigment, you are required to use:
+- React
+- Redux
+- Typescript <b>(optional)</b>
 
 ## Review
 
-After you delivered the completed assignment to us, we will review it as soon as we can, generally within 3 days. **We pay special attention to:**
+During the assessment, we will look into the following points:
 
-* Coding skills
-   * Writing testable code	
-   * Whether you use Redux, React, HTML and CSS properly
-* Software Engineering Skills
-   * Code organization (modularity, dependencies between modules, naming, etc)
-* Overall Feeling
-   * Software usability
-   * Assignment completion
-   * Overall code quality (edge cases, usage of tools, performance, best practices)
-   
-## Presentation
-
-If we like what we see, we'll invite you to present your solution! We have a big screen for you to present on. Don't forget your laptop!
+* Whether you use Redux, React, HTML and CSS properly
+* Writing testable code
+* Code organization (modularity, dependencies between modules, naming, etc)
+* SOLID principles
+* Error handling
+* Assignment completion
 
 ## Hints
-* You don't need to spend time creating a dev/build environment, using [react-create-app](https://github.com/facebookincubator/create-react-app) (and other alike tools) is totally ok!
-* Never done anything with Firebase? You can follow [this guide](https://firebase.google.com/docs/web/setup) and it should give you a nice starting point.
-* Don't need to re-invent the wheel, for components like Datepickers and/or Timepicker you can use [Material-ui](https://github.com/callemall/material-ui) or any other of your choice, it has great integration with React environments.
-* Even though we allow third-party libraries, try to rely as little as possible on tools that write React-, Redux-, CSS- or firebase-related code for you. As our main focus is your own code (and ingenuity) with those tools.
-* As a company, we believe that communication is the key to success. So if something is not clear to you, or if you have doubts on what you can use, reach the devs.
-* Threat this project as if you/we would continue working on this after your assignment: maintainability, scalability, and readability are super important.
+
+* You don't need to spend time creating a dev/build environment. You can use [create-react-app](https://github.com/facebookincubator/create-react-app) (and other alike tools) for that
+* Third-party libraries are allowed, although it is not recommended to use, since our main focus is to assess your skills with HTML, Javascript and CSS
+* As a company, we believe that communication is the key to success. So if something is not clear to you, or if you have doubts on what you can use, reach the devs
+
 
 ## That's it!
 
-Happy coding! :metal:
+Happy coding!
 
 <img src="https://user-images.githubusercontent.com/5693916/30273942-84252588-96fb-11e7-9420-5516b92cb1f7.gif" data-canonical-src="https://user-images.githubusercontent.com/5693916/30273942-84252588-96fb-11e7-9420-5516b92cb1f7.gif" width="150" height="150" />
