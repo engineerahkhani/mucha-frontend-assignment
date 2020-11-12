@@ -6,7 +6,7 @@
 
 ## Goal
 
-The goal of this assignment is to have the candidate work with the same tools that we use every-day on Chama. It is designed to check your coding and problem-solving skills.
+The goal of this assignment is to have the candidate to work with some of the tools that we use every-day on Chama. It is designed to check your coding and problem-solving skills.
 
 
 ## Assigment Description
