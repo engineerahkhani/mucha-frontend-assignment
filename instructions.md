@@ -1,1 +1,0 @@
-## Instructions for the assignment reviewers at chama
