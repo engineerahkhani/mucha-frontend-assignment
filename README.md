@@ -13,7 +13,7 @@ The goal of this assignment is to have the candidate to work with some of the to
 
 For this assigment, you should consume the public [Github REST API](https://docs.github.com/en/free-pro-team@latest/rest/overview/endpoints-available-for-github-apps#users) in order to present the github data of a given user. 
 
-The web app must have two pages:
+The web app must have two pages/routes:
 
 - <b>Search page</b>: the user types a Github username in a form. Once the form is submitted, the data is fetched and presented in the UI. You can come up showing whatever you want, though it is required to show the user profile metadata (example: avatar picture, name, email, bio, etc.) and his repositories metadata info (example: name, description, URL, etc.)
 
@@ -29,7 +29,7 @@ Share your solution via URL to your git repository or send us a zip file with th
 In your assigment, you are required to use:
 - React & Hooks
 - Redux
-- CSS (styled-components, CSS modules, or plain CSS/SASS)
+- CSS (styled-components, CSS modules, or plain CSS/SASS/LESS)
 - Typescript <b>(for bonus points)</b>
 
 ## Review
