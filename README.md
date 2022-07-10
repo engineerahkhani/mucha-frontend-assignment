@@ -1,12 +1,12 @@
 <p align="center">
-<img src="https://avatars0.githubusercontent.com/u/26920098?s=200&v=4" width="100" height="100" />
+<img src="https://pagepro.co/static/img/frontend-code-8c398cac38.svg" width="100" height="100" />
 </p>
 
 # Frontend Assigment: Github username searcher
 
 ## Goal
 
-The goal of this assignment is to have the candidate to work with some of the tools that we use every-day on Chama. It is designed to check your coding and problem-solving skills. Keep it simple and follow the requirements.
+The goal of this assignment is to have the candidate to work with some of the tools that we use every-day on Areshta. It is designed to check your coding and problem-solving skills. Keep it simple and follow the requirements.
 
 
 ## Assigment Description
@@ -28,15 +28,14 @@ Share your solution via URL to your git repository or send us a zip file with th
 
 In your assigment, you are required to use:
 - React & Hooks
-- Redux
-- CSS (styled-components, CSS modules, or plain CSS/SASS/LESS)
-- Typescript <b>(for bonus points)</b>
+- CSS (CSS modules, or plain CSS/SASS/LESS)
+- Typescript
 
 ## Review
 
 During the assessment, we will look into the following points:
 
-* Whether you use React/Hooks, Redux, HTML and CSS properly
+* Whether you use React/Hooks, HTML and CSS properly
 * Code performance
 * Writing testable code
 * Code organization (modularity, dependencies between modules, naming, etc)
