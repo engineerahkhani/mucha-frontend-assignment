@@ -1,0 +1,63 @@
+{
+  "name": "chama-task-assignment",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://engineerahkhani.github.io/chama-task-assignment/",
+  "dependencies": {
+    "@loadable/component": "^5.15.2",
+    "@reduxjs/toolkit": "^1.8.1",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.0.1",
+    "@testing-library/user-event": "^14.1.1",
+    "@types/jest": "^27.4.1",
+    "@types/node": "^17.0.25",
+    "@types/react": "^18.0.6",
+    "@types/react-dom": "^18.0.2",
+    "axios": "^0.27.2",
+    "classnames": "^2.2.5",
+    "formik": "^2.2.9",
+    "gh-pages": "^4.0.0",
+    "jss": "^10.9.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-jss": "^10.9.0",
+    "react-redux": "^8.0.1",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "react-tiny-i18n": "^0.4.0",
+    "typescript": "^4.6.0",
+    "web-vitals": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.10",
+    "@types/loadable__component": "^5.13.4",
+    "msw": "^0.41.1",
+    "prettier": "^2.2.1"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
