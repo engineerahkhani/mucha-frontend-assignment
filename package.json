@@ -1,8 +1,8 @@
 {
-  "name": "chama-task-assignment",
+  "name": "mucha-frontend-assignment",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://engineerahkhani.github.io/chama-task-assignment/",
+  "homepage": "https://engineerahkhani.github.io/mucha-frontend-assignment/",
   "dependencies": {
     "@loadable/component": "^5.15.2",
     "@reduxjs/toolkit": "^1.8.1",
