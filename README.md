@@ -1,46 +1,58 @@
-# Getting Started with Create React App
+<p align="center">
+<img src="https://pagepro.co/static/img/frontend-code-8c398cac38.svg" width="100" height="100" />
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
+# Frontend Assigment: Github username searcher
 
-## Available Scripts
+## Goal
 
-In the project directory, you can run:
+The goal of this assignment is to have the candidate to work with some of the tools that we use every-day on Areshta. It is designed to check your coding and problem-solving skills. Keep it simple and follow the requirements.
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Assigment Description
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+For this assigment, you should consume the public [Github REST API](https://docs.github.com/en/free-pro-team@latest/rest/overview/endpoints-available-for-github-apps#users) in order to present the github data of a given user. 
 
-### `yarn test`
+The web app must have two pages/routes:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- <b>Search page</b>: the user types a Github username in a form. Once the form is submitted, the data is fetched and presented in the UI. You can come up showing whatever you want, though it is required to show the user profile metadata (example: avatar picture, name, email, bio, etc.) and his repositories metadata info (example: name, description, URL, etc.)
 
-### `yarn build`
+- <b>History page</b>: the page must show all previous terms searched by the user, sorted by timestamp. The most recent ones must be on the top. The user must be able to click in the history item and search again using the searched term.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Take into consideration that this web application must be scalable: more requirements will be added on top, and other teams/developers will work on that in the future.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Share your solution via URL to your git repository or send us a zip file with the source.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+## Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+In your assigment, you are required to use:
+- React & Hooks
+- CSS (CSS modules, or plain CSS/SASS/LESS)
+- Typescript
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Review
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+During the assessment, we will look into the following points:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* Whether you use React/Hooks, HTML and CSS properly
+* Code performance
+* Writing testable code
+* Code organization (modularity, dependencies between modules, naming, etc)
+* SOLID principles
+* Error handling
+* Mobile friendly
+* Assignment interpretation/completion
 
-## Learn More
+## Hints
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* You don't need to spend time creating a dev/build environment. You can use [create-react-app](https://github.com/facebookincubator/create-react-app) (and other alike tools) for that
+* Third-party libraries are allowed, although is highly recommended to provide a vanilla solution since our main focus is to assess your skills with HTML, Javascript and CSS. Try to rely as much as possible in the Browser/Node native API. 
+* As a company, we believe that communication is the key to success. So if something is not clear to you, or if you have doubts on what you can use, reach the devs
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+## That's it!
+
+Happy coding!
+
+<img src="https://user-images.githubusercontent.com/5693916/30273942-84252588-96fb-11e7-9420-5516b92cb1f7.gif" data-canonical-src="https://user-images.githubusercontent.com/5693916/30273942-84252588-96fb-11e7-9420-5516b92cb1f7.gif" width="150" height="150" />
